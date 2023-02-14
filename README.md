@@ -1,5 +1,4 @@
 # ESP8266_HX711_OLED
-Scale with ESP8266_HX711_OLED
 
 Upload calibration version first.
 
