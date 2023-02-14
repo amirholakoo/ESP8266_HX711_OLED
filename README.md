@@ -10,7 +10,11 @@ Calibration Factor = Reading / Known Weight
 
 Load the FIANL version.
 
-Update the following line: //REPLACE WITH YOUR CALIBRATION FACTOR #define CALIBRATION_FACTOR xxxx.xxxx
+Update the following line: 
+
+//REPLACE WITH YOUR CALIBRATION FACTOR 
+
+#define CALIBRATION_FACTOR xxxx.xxxx
 
 Test.
 
