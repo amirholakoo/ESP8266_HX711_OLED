@@ -81,4 +81,12 @@ Once the code is uploaded, the OLED display should show the current weight. Pres
 
 ## Troubleshooting
 
-- If the OLED display does not show any output, double-check the I2C connections
+- If the OLED display does not show any output, double-check the I2C connections and ensure that the display's voltage requirements are met (either 3.3V or 5V, depending on your specific display).
+
+- If the weight readings are inaccurate, ensure that the load cell is connected correctly to the HX711 and that the CALIBRATION_FACTOR is properly set.
+
+- If you encounter issues with the push-button, check its connections and ensure that it is wired correctly to the ESP8266.
+
+- If you still face issues, try to isolate the problem by testing each component individually. For example, you can test the OLED display using example sketches provided by the Adafruit SSD1306 library, and you can test the HX711 and load cell using example sketches from the HX711 library.
+# 
+Feel free to ask for further assistance if you encounter any issues or have questions about the project. Good luck, and have fun exploring the capabilities of the ESP8266!
